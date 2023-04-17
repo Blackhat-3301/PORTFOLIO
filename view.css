@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+:root {
+    --fw-light: 500;
+    --fw-regular: 700;
+    --font-family: 'Dongle', sans-serif;
+    --ff-main: 'Playfair Display', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vmax;
+}
+
+.header {
+    display: flex;
+    font-family: var(--font-family);
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    padding-bottom: 0;
+}
+
+.home h3 {
+    font-size: 1.6rem;
+    font-weight: var(--fw-light);
+    line-height: 1;
+    cursor: pointer;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    font-size: 1.5rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav ul li:nth-child(odd) {
+    opacity: .7;
+}
+
+.nav ul li:nth-child(even) {
+    font-weight: var(--fw-regular);
+}
+
+.main__section {
+    margin: 100px;
+}
+
+.main__section h1 {
+    font-size: 12em;
+    font-weight: lighter;
+}
+
+.main__section p {
+    font-size: 2.2em;
+    letter-spacing: 9px;
+    font-weight: lighter;
+    margin-top: 29px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
